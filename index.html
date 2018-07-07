@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Choose your own adventure</title>
+<meta charset="utf-8">
+<style>
+	body {
+		font-family: sans-serif;
+		font-weight: 200;
+		text-align: center;
+	}
+	h1, h2, h3 {
+		font-weight: normal;
+		color: #414141;
+	}
+	#options-wrapper {
+		display: none;
+	}
+	.option-display {
+		margin: 10px 10px;
+		padding: 10px 10px;
+		display: inline-block;
+		background-color: beige;
+		box-shadow: 2px 1px 3px black;
+	}
+	.option-display:hover {
+		cursor: pointer;
+		box-shadow: 2px 2px 3px black;
+	}
+		
+	
+</style>
+</head>
+<body>
+
+	<h1>Hello!</h1>
+	
+	<h3 id="message"></h3>
+	
+	<button id="play-game">Play</button>
+	
+	<div id="options-wrapper">
+		<!-- <div class="option-display" id="op1"></div>
+		<div class="option-display"  id="op2"></div> -->
+	</div>
+
+	<script src="data.js"></script>
+	<script src="game.js"></script>
+	
+</body>
+</html>
+
+
+
+
